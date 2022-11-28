@@ -689,7 +689,7 @@ dd {
 /* contact section */
 #contact {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   display: grid;
   place-items: center;
   color: whitesmoke;
@@ -804,6 +804,11 @@ dd {
 }
 
 @media only screen and (max-width: 700px) {
+
+  #contact {
+    /* margin-bottom: 16px; */
+    height: auto;
+  }
   #contact .info .text .text_right {
     width: 50%;
     margin: 0 auto;
